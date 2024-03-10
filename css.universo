@@ -1,0 +1,64 @@
+/* Reset de algumas configurações padrão do navegador */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilizando o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilizando o cabeçalho */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilizando o contêiner principal */
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Estilizando links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adicionando cores adicionais */
+p {
+  color: #555;
+}
+
+/* Exemplo de botão com gradiente */
+.button {
+  background: linear-gradient(to bottom, #4CAF50 0%, #45a049 100%);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Estilizando um bloco de destaque */
+.highlight-box {
+  background-color: #ffc107;
+  padding: 10px;
+  border: 1px solid #e0a800;
+  margin-bottom: 20px;
+}
